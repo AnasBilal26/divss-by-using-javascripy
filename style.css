@@ -1,0 +1,135 @@
+/** @format */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: black;
+}
+.parent {
+  height: 400px;
+  width: 600px;
+}
+.first {
+  cursor: pointer;
+  height: 90px;
+  background-color: white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid rgba(5, 5, 255, 0.879);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.second {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid rgba(5, 5, 255, 0.879);
+  cursor: pointer;
+  height: 90px;
+  background-color: white;
+}
+.third {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid rgba(5, 5, 255, 0.879);
+  cursor: pointer;
+  height: 90px;
+  background-color: white;
+}
+.fourth {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid rgba(5, 5, 255, 0.879);
+  cursor: pointer;
+  height: 90px;
+  background-color: white;
+}
+.flex {
+  background-color: darkblue;
+  overflow: hidden;
+  border: none;
+  height: 0px;
+  transition: all ease 0.5s;
+}
+.flex p {
+  color: white;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.line {
+  border: 1px solid white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.flextwo {
+  background-color: darkblue;
+  overflow: hidden;
+  border: none;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  transition: all ease 0.5s;
+}
+.flexthree {
+  background-color: darkblue;
+  overflow: hidden;
+  border: none;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  transition: all ease 0.5s;
+}
+
+.flexfour {
+  background-color: darkblue;
+  overflow: hidden;
+  border: none;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  transition: all ease 0.4s;
+}
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 12px;
+  }
+  .flextwo {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .flexthree {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .flexfour {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
